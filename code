@@ -1,0 +1,44 @@
+void main() {
+  
+  String studentName = "Rafael Ebrada";
+  int quantity = 3;
+  double unitPrice = 49.50;
+  bool isStudentMember = true;
+
+
+  double totalPrice = quantity * unitPrice;
+  double discount = isStudentMember ? 10.0 : 0.0;
+  double finalPrice = totalPrice - discount;
+
+
+  bool isExpensive = finalPrice > 100;
+  bool isAffordable = finalPrice <= 150;
+
+  
+  int remainingItems = quantity ~/ 2;
+  int extraItems = quantity % 2;
+
+ 
+  print("================================");
+  print("       STUDENT PURCHASE SYSTEM");
+  print("================================");
+
+  print("Student Name: $studentName");
+  print("Student Member: $isStudentMember");
+  print("Quantity: $quantity");
+  print("Unit Price: PHP $unitPrice");
+
+  print("--------------------------------");
+  print("Total Price: PHP $totalPrice");
+  print("Discount: PHP $discount");
+  print("Final Price: PHP $finalPrice");
+
+  print("--------------------------------");
+  print("Is the purchase expensive? $isExpensive");
+  print("Is the purchase affordable? $isAffordable");
+  print("Remaining Items (~/): $remainingItems");
+  print("Extra Items (%): $extraItems");
+
+  print("================================");
+  print("Program finished successfully!");
+}
