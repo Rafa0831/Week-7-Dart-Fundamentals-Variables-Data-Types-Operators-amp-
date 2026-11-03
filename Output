@@ -1,0 +1,18 @@
+================================
+       STUDENT PURCHASE SYSTEM
+================================
+Student Name: Rafael Ebrada
+Student Member: true
+Quantity: 3
+Unit Price: PHP 49.5
+--------------------------------
+Total Price: PHP 148.5
+Discount: PHP 10
+Final Price: PHP 138.5
+--------------------------------
+Is the purchase expensive? true
+Is the purchase affordable? true
+Remaining Items (~/): 1
+Extra Items (%): 1
+================================
+Program finished successfully!
